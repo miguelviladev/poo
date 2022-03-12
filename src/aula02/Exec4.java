@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Exec4 {
     public static void main(String[] args) {
-        // Declaração de variáveis
+        // Declaração de variáveis e constante
         // Inicialização do scanner para leitura dos dados
         double val_balanco, val_juros;
         final int num_meses = 3;
