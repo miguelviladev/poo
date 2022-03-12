@@ -18,6 +18,6 @@ public class Exec2 {
 
         // Apresentação do resultado
         System.out.println("============== RESULTADO ==============");
-        System.out.println("Distância em Fahrenheit: " + val_fahren);
+        System.out.println("Temperatura em Fahrenheit: " + val_fahren);
     }
 }
