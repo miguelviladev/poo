@@ -8,6 +8,14 @@ Considera seguir-me no [Twitter](https://twitter.com/miguelviladev) ou no [Insta
 
 Vá, força nos dedos! 🚀
 
+## Estrutura e Organização
+
+O repositório é composto essencialmente por 2 pastas:
+
+- `src`: onde vais encontrar os exercícios resolvidos separados por aula 
+- `lib`: uma pasta que poderá conter dependências a serem utilizadas
+
+
 # LICENÇA
 
 [Programação Orientada a Objetos](https://github.com/miguelviladev/programacao-orientada-a-objetos), por [Miguel Vila](https://github.com/miguelviladev), está licenciado com a licença [CC0 1.0](LICENSE).
