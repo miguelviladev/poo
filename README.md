@@ -15,6 +15,12 @@ O repositório é composto essencialmente por 2 pastas:
 - `src`: onde vais encontrar os exercícios resolvidos separados por aula 
 - `lib`: uma pasta que poderá conter dependências a serem utilizadas
 
+## Recursos Interessantes
+
+- [Programação Orientada a Objetos (POO)](https://www.youtube.com/watch?v=QY0Kdg83orY), por [Código Fonte TV](https://www.youtube.com/channel/UCFuIUoyHB12qpYa8Jpxoxow)
+- [Learn Java 8 - Full Tutorial for Beginners](https://www.youtube.com/watch?v=grEKMHGYyns), por [Freecodecamp](https://www.freecodecamp.org/)
+- [Curso de Java para Iniciantes](https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR), por [Curso em Vídeo](https://www.cursoemvideo.com/)
+- [Curso de POO Java (Programação Orientada a Objetos)](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY), por [Curso em Vídeo](https://www.cursoemvideo.com/)
 
 # LICENÇA
 
