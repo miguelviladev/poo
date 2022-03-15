@@ -23,6 +23,6 @@ public class Exec4 {
 
         // Apresentação do resultado
         System.out.println("=============== RESULTADO ===============");
-        System.out.println("Balanço ao fim de " + num_meses + " meses (EUR): " + val_balanco);
+        System.out.println(String.format("Balanço ao fim de %d meses (EUR): %.2f", num_meses , val_balanco));
     }
 }
