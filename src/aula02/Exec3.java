@@ -22,6 +22,6 @@ public class Exec3 {
 
         // Apresentação do resultado
         System.out.println("============== RESULTADO ==============");
-        System.out.println("Energia necessária (J): " + val_energia);
+        System.out.println(String.format("Energia necessária (J): %.2f" , val_energia));
     }
 }
