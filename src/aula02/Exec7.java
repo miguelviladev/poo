@@ -28,6 +28,6 @@ public class Exec7 {
 
         // Apresentação do resultado
         System.out.println("============== RESULTADO ==============");
-        System.out.println(String.format("Distância entre P1 e P2: %f",distancia));
+        System.out.println(String.format("Distância entre P1 e P2: %.2f",distancia));
     }
 }
