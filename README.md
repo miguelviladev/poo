@@ -15,6 +15,9 @@ O repositório é composto essencialmente por 2 pastas:
 - `src`: onde vais encontrar os exercícios resolvidos separados por aula juntamente com o respetivo guião
 - `lib`: uma pasta que poderá conter dependências a serem utilizadas
 
+⚠️ ATENÇÃO ⚠️
+As pastas com o sufixo `_improved` contêm os mesmos exercícios dos guiões só que com error handling e outras pequenas alterações. Não são obrigatórios, geralmente surgem como sugestão do professor das aulas práticas.
+
 ## Recursos Interessantes
 
 - [Testes e Resoluções da UA](https://www.youtube.com/watch?v=iik25wqIuFo), por algum deus qualquer
