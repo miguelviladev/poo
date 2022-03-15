@@ -18,6 +18,6 @@ public class Exec1 {
 
         // Apresentação do resultado
         System.out.println("============== RESULTADO ==============");
-        System.out.println("Distância em milhas: " + val_miles);
+        System.out.println(String.format("Distância em milhas: %.2f", val_miles));
     }
 }
