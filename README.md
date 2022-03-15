@@ -12,7 +12,7 @@ Vá, força nos dedos! 🚀
 
 O repositório é composto essencialmente por 2 pastas:
 
-- `src`: onde vais encontrar os exercícios resolvidos separados por aula 
+- `src`: onde vais encontrar os exercícios resolvidos separados por aula juntamente com o respetivo guião
 - `lib`: uma pasta que poderá conter dependências a serem utilizadas
 
 ## Recursos Interessantes
