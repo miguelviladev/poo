@@ -18,6 +18,6 @@ public class Exec2 {
 
         // Apresentação do resultado
         System.out.println("============== RESULTADO ==============");
-        System.out.println("Temperatura em Fahrenheit: " + val_fahren);
+        System.out.println(String.format("Temperatura em Fahrenheit: %.2f", val_fahren));
     }
 }
