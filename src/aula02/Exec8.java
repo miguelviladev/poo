@@ -22,7 +22,7 @@ public class Exec8 {
 
         // Apresentação do resultado
         System.out.println("============== RESULTADO ==============");
-        System.out.println("Hipotenusa: " + c);
-        System.out.println("Ângulo entre cateto A e hipotenusa: " + d);
+        System.out.println(String.format("Hipotenusa: %.2f" , c));
+        System.out.println(String.format("Ângulo entre cateto A e hipotenusa: %.2f" , d));
     }
 }
