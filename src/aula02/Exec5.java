@@ -26,6 +26,6 @@ public class Exec5 {
 
         // Apresentação do resultado
         System.out.println("============== RESULTADO ==============");
-        System.out.println("Velocidade média final (m/s): " + vel_f);
+        System.out.println(String.format("Velocidade média final (m/s): %.2f", vel_f));
     }
 }
