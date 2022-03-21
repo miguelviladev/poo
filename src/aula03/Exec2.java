@@ -1,5 +1,6 @@
 package aula03;
 import java.util.Scanner;
+import java.lang.Math;
 
 public class Exec2 {
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class Exec2 {
 
         // Leitura dos dados
         System.out.print("Valor inicial: ");
-        val = val_input.nextInt();
+        val = Math.abs(val_input.nextInt());
         val_input.close();
 
         // Apresentação do resultado
