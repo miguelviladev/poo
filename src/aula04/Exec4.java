@@ -27,12 +27,14 @@ public class Exec4 {
 
     public static String construtorDeString(int mes, int ano, int inicio) {
         int dias = diasDoMes(mes, ano);
-        int dia_semana = inicio; 
+        int dia_semana = inicio;
         // Iniciamos a string com os espaços relativamente ao inicio do mês
         String dias_espacos = new String("   ".repeat(inicio - 1));
 
-        // Completamos a string com os dias no formato e espaçamento correto. Tendo em atenção que o formato depende do dia da semana: se dia_semana = 1 --> "-- " se dia_semana = 7 -> "--\n" senão "-- "
-        for (int i=1; i <= dias; i++) {
+        // Completamos a string com os dias no formato e espaçamento correto. Tendo em
+        // atenção que o formato depende do dia da semana: se dia_semana = 1 --> "-- "
+        // se dia_semana = 7 -> "--\n" senão "-- "
+        for (int i = 1; i <= dias; i++) {
             if (dia_semana == 1) {
                 dias_espacos += String.format("%2d ", i);
                 dia_semana++;
