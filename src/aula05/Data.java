@@ -48,7 +48,7 @@ public class Data {
 
     // Método para calcular verificar se a data é válida - Público para podermos verificar se a data é válida fora da classe
     public boolean isDataValida() {
-        if (this.isMesValido() && this.numeroDeDias()<=this.dia) return true;
+        if (this.isMesValido() && this.dia <= this.numeroDeDias() && this.dia >= 1) return true;
         return false;
     }
     // Método para calcular se o mês é válido - É privado já que não vamos necessitar dele fora da classe
