@@ -113,8 +113,8 @@ public class Data {
             this.incrementarData();
         }
     }
-    
-    public void decremenarData(int dias) {
+
+    public void decremenarDias(int dias) {
         for (int i = 0; i < dias; i++) {
             this.decremenarData();
         }
