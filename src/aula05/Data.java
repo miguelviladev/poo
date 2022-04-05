@@ -69,8 +69,8 @@ public class Data {
             return false;
         }
     }
-    // Método para calcular o numero de dias do mês - É privado já que não vamos necessitar dele fora da classe
-    private int numeroDeDias() {
+    // Método para calcular o numero de dias do mês - É publico já que vamos necessitar dele fora da classe
+    public int numeroDeDias() {
         if (this.mes == 2) {
             if (this.isAnoBissexto()) return 29;
             return 28;
