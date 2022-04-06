@@ -43,6 +43,7 @@ public class Circulo {
     private void calcularArea() {
         this.area = (float) (Math.PI * Math.pow(this.raio, 2));
     }
+    
     private void calcularPerimetro() {
         this.perimetro = (float) (2 * Math.PI * this.raio);
     }
