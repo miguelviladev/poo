@@ -28,7 +28,7 @@ public class Circulo {
     }
 
     public boolean isFiguraValida() {
-        if (this.raio<0) return false;
+        if (this.raio<=0) return false;
         return true;
     }
 
