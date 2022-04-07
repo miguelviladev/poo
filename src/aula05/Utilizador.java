@@ -1,7 +1,9 @@
 package aula05;
+import java.util.ArrayList;
 
 public class Utilizador {
     private String nome, curso; private int n_mec;
+    private ArrayList<Integer> ids_requisitados = new ArrayList<>();
 
     Utilizador(String nome, int n_mec, String curso) {
         this.setNome(nome);
@@ -33,7 +35,23 @@ public class Utilizador {
         return this.curso;
     }
 
+    public String getRequisitados() {
+        String s = "";
+        for (Integer id : this.ids_requisitados) {
+            s += " " + id;
+        }
+        return s;
+    }
+
     public String toString() {
-        return "Aluno: " + this.getNumMec() + "; " + this.getNome() + "; " + this.getCurso();
+        return "Aluno: " + this.getNumMec() + "; " + this.getNome() + "; " + this.getCurso() + ";" + this.getRequisitados();
+    }
+
+    public void requisitar(int id) {
+        this.ids_requisitados.add(id);
+    }
+
+    public void devolver(int id) {
+        this.ids_requisitados.remove(id);
     }
 }
