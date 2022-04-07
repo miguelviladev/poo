@@ -19,7 +19,7 @@ public class Exec4 {
         alunos.add(new Utilizador("Joao Silva", 90123, "LEI"));
         alunos.get(1).setNumMec(80123);
 
-        for (Utilizador u : alunos) { // usando foreach
+        for (Utilizador u : alunos) {
             System.out.println(u);
         }
     }
