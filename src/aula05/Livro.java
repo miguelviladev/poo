@@ -1,16 +1,19 @@
 package aula05;
 
 public class Livro {
+    private static int id_count = 100;
     private int id; private String titulo, tipo_emprestimo;
 
-    Livro(int id, String titulo, String tipo_emprestimo) {
-        this.setId(id);
+    Livro(String titulo, String tipo_emprestimo) {
+        this.id = id_count++;
         this.setTitulo(titulo);
         this.setTipoEmprestimo(tipo_emprestimo);
     }
 
-    public void setId(int id) {
-        this.id = id;
+    Livro(String titulo) {
+        this.id = id_count++;
+        this.setTitulo(titulo);
+        this.setTipoEmprestimo("NORMAL");
     }
 
     public int getId() {
@@ -31,5 +34,9 @@ public class Livro {
 
     public String getTipoEmprestimo() {
         return this.tipo_emprestimo;
+    }
+
+    public String toString() {
+        return "Livro " + this.getId() + "; " + this.titulo + "; " + this.tipo_emprestimo;
     }
 }
