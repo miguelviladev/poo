@@ -32,4 +32,8 @@ public class Utilizador {
     public String getCurso() {
         return this.curso;
     }
+
+    public String toString() {
+        return "Aluno: " + this.getNumMec() + "; " + this.getNome() + "; " + this.getCurso();
+    }
 }
