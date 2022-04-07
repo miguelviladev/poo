@@ -43,6 +43,10 @@ public class Utilizador {
         return s;
     }
 
+    public int getNumRequisitados() {
+        return this.ids_requisitados.size();
+    }
+
     public String toString() {
         return "Aluno: " + this.getNumMec() + "; " + this.getNome() + "; " + this.getCurso() + ";" + this.getRequisitados();
     }
@@ -52,6 +56,11 @@ public class Utilizador {
     }
 
     public void devolver(int id) {
-        this.ids_requisitados.remove(id);
+        for (Integer id_requisitado : this.ids_requisitados) {
+            if (id_requisitado == id) {
+                this.ids_requisitados.remove(id_requisitado);
+                break;
+            }
+        }
     }
 }
