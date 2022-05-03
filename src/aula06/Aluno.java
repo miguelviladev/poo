@@ -10,9 +10,7 @@ public class Aluno extends Pessoa {
         super(nome, cartao_cidadao, data_nascimento);
         this.setNumeroMecanografico();
         java.util.Date date = new java.util.Date();
-        //TODO
         System.out.println(date);
-        //this.setDataInscricao(new Data(11,11,11));
     }
 
     Aluno(String nome, int cartao_cidadao, Data data_nascimento, Data data_inscricao) {
