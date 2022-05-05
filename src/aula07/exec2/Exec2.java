@@ -1,4 +1,4 @@
-package aula07;
+package aula07.exec2;
 import java.util.Scanner;
 
 public class Exec2 {

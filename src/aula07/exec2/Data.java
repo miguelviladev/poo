@@ -1,4 +1,4 @@
-package aula07;
+package aula07.exec2;
 
 public abstract class Data {
 

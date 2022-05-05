@@ -1,4 +1,4 @@
-package aula07;
+package aula07.exec2;
 
 public class DataDMY extends Data {
 	private int dia, mes, ano;
