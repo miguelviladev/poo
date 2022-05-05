@@ -1,4 +1,4 @@
-package aula07;
+package aula07.exec1;
 
 public class Retangulo extends Forma {
 

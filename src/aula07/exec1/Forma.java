@@ -1,4 +1,4 @@
-package aula07;
+package aula07.exec1;
 
 public abstract class Forma {
     protected double area, perimetro;
