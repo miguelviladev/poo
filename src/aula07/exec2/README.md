@@ -1,6 +1,6 @@
 # Exercício Incompleto
 
-> ⚠️ ATENÇÃO: Este execício não está completo e contém erros sintáticos e lógicos grosseiros.
+> ⚠️ ATENÇÃO: Este exercício não está completo e contém erros sintáticos e lógicos grosseiros.
 
 Se percebeste o enunciado do exercício podes fazer um pull request já que eu não percebi minimamente o enunciado/objetivo deste exercício.
 
