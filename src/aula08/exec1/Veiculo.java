@@ -40,7 +40,7 @@ public abstract class Veiculo implements KmPercorridos {
     }
 
     public void setMatricula(String matricula) {
-        if (matricula == null || matricula.equals("")) throw new IllegalArgumentException("matricula invalida");
+        if (matricula == null || matricula.equals("") || matricula.length()!=8 || matricula.charAt(2)!='-' || matricula.charAt(5)!='-') throw new IllegalArgumentException("matricula invalida");
         this.matricula = matricula;
     }
 
