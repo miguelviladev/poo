@@ -3,20 +3,21 @@ package aula11;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.Map;
 import java.util.Scanner;
 
 public class Exec1 {
     public static void main(String[] args) throws IOException {
         ArrayList<String> lista = new ArrayList<>();
-        Map<String, Map<String, Integer>> mapa = new HashMap<>();
+        Map<String, Map<String, Integer>> mapa = new TreeMap<>();
 
-        carregarLista(lista, "src/aula11/prompt.txt");
+        //carregarLista(lista, "src/aula11/prompt.txt");
+        carregarLista(lista, "src/aula11/major.txt");
         
         // Populate the map with empty lists and the characters
         for(int i = 0; i<lista.size()-1; i++){
-            Map<String, Integer> mapa2 = new HashMap<>();
+            Map<String, Integer> mapa2 = new TreeMap<>();
             mapa.put(lista.get(i), mapa2);
         }
         // Populate the map with the pairs
@@ -26,7 +27,10 @@ public class Exec1 {
             mapa.get(primaria).put(secundaria, mapa.get(primaria).getOrDefault(secundaria, 0) + 1);
         }
 //
-        System.out.println(mapa);
+        // Print the map
+        for (String par : mapa.toString().substring(1, mapa.toString().length()-2).split("}, ")) {
+            System.out.println(par + "}");
+        }
     }
 
     public static void carregarLista(ArrayList<String> lista, String caminho) throws IOException {
