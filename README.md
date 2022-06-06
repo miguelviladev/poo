@@ -27,6 +27,6 @@ O repositório é composto essencialmente por 2 pastas:
 
 # LICENÇA
 
-[Programação Orientada a Objetos](https://github.com/miguelviladev/programacao-orientada-a-objetos), por [Miguel Vila](https://github.com/miguelviladev), está licenciado com a licença [CC0 1.0](LICENSE).
+[Programação Orientada a Objetos](https://github.com/miguelviladev/poo), por [Miguel Vila](https://github.com/miguelviladev), está licenciado com a licença [CC0 1.0](LICENSE).
 
 Isto significa que não existem direitos de autor nem direitos conexos na medida permitida por lei. Ou seja, este repositório pertence ao domínio público. Assim, podes copiar, modificar, distribuir e executar o trabalho sem pedir autorização ou atribuir quaisquer créditos.
