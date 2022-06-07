@@ -89,7 +89,7 @@ public class Exec2 {
             chegadas.put(voo.getOrigem(), chegadas.get(voo.getOrigem()) + 1);
         }
         Map<String, Integer> chegadas_ordenadas = new LinkedHashMap<String, Integer>();
-        chegadas.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) .forEachOrdered(x -> chegadas_ordenadas.put(x.getKey(), x.getValue()));
+        chegadas.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).forEachOrdered(x -> chegadas_ordenadas.put(x.getKey(), x.getValue()));
 
         String head = String.format("%-20s %-5s\n", "Origem", "Voos");
         String body = "";
