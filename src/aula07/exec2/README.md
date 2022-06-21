@@ -8,4 +8,4 @@ Os enunciados das aulas (que não são da minha autoria) estão disponíveis [aq
 
 # LICENÇA
 
-[Programação Orientada a Objetos](https://github.com/miguelviladev/programacao-orientada-a-objetos), por [Miguel Vila](https://github.com/miguelviladev), está licenciado com a licença [CC0 1.0](LICENSE).
+[Programação Orientada a Objetos](https://github.com/miguelviladev/poo), por [Miguel Vila](https://github.com/miguelviladev), está licenciado com a licença [CC0 1.0](LICENSE).
